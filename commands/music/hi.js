@@ -1,7 +1,7 @@
 module.exports = {
 
         name: 'hi',
-        aliases: ["res"],
+        aliases: ["Hi"],
         category: "music",
         description: 'resumes music',
         usage: " ",
@@ -11,7 +11,7 @@ module.exports = {
         if (!channel) return message.channel.send('Hello, How are you?');
         const serverQueue = ops.queue.get(message.guild.id);
         if (message.guild.me.voice.channel !== message.member.voice.channel) {
-            return message.channel.send("**Hello, How are you?**");
+            return message.channel.send("**Hello :)**");
         }
       try {
         if (serverQueue && !serverQueue.playing) {
