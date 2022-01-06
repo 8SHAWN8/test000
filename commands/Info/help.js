@@ -17,7 +17,7 @@ module.exports = {
     const embed = new Discord.MessageEmbed()
     .setTitle(`${bot} Help <a:yes:883112081614852156>`)
     .setImage("https://i.ibb.co/DwZQS4R/standard.gif")
-    .setDescription(` Hello **${message.author.username}**, \n *Choose an category below to see commands* \n\n :question: New to ${bot}? Check out server \n https://discord.gg/debYdxKWj7 \n\n Also Join Check ToXic Fighters High Quality Music BOT w/ Dashboard  [](https://discord.com/oauth2/authorize?client_id=829542348085526569&permissions=2205281600&scope=bot%20identify%20guilds%20applications.commands&redirect_url=https://yuimusic.imnothingspecialjustcultured.repl.co/api/callback&response_type=code)`)
+    .setDescription(` Hello **${message.author.username}**, \n *Choose an category below to see commands* \n\n :question: New to ${bot}? Check out server \n https://discord.gg/x9sDrnf7cT \n\n Also Join Check ToXic Fighters High Quality Music BOT w/ Dashboard  [](https://discord.com/oauth2/authorize?client_id=829542348085526569&permissions=2205281600&scope=bot%20identify%20guilds%20applications.commands&redirect_url=https://yuimusic.imnothingspecialjustcultured.repl.co/api/callback&response_type=code)`)
     .setThumbnail(client.user.displayAvatarURL())
     .setColor("#c90a1d")
     .setFooter(`Requested by: ${message.author.tag}`)
