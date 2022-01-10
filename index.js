@@ -80,7 +80,7 @@ client.on("message", async message => {
 let ad = ads.ad[Math.floor((Math.random() * ads.ad.length))];
   if(cooldown.has(message.author.id)){
 
-    return message.channel.send(`**${message.author.username}** please wait 3 seconds to use this command again! \n\n ${ad}`)
+    return message.channel.send(`**${message.author.username}** please do not spam this Channel again! \n\n ${ad}`)
   }
   cooldown.add(message.author.id);
   setTimeout(() => {
