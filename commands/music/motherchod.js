@@ -1,7 +1,7 @@
 module.exports = {
 
-        name: 'matherchod',
-        aliases: ["Maherchod"],
+        name: 'mother',
+        aliases: ["Mother"],
         category: "music",
         description: 'resumes music',
         usage: " ",
