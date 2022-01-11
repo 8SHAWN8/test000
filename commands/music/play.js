@@ -10,7 +10,7 @@ const ytdl = require('ytdl-core');
 
 module.exports = {
 
-        name: 'play',
+        name: 'pl',
         description: 'Play command',
         aliases: ["p"],
         category: "music",
